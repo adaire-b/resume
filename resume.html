@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adaire Baltzer - Resume</title>
+<style>
+  :root{
+    --bg1:#f7f8fb; --bg2:#eef3f7; --ink:#172131; --muted:#687484; --line:rgba(23,33,49,.12);
+    --card:rgba(255,255,255,.78); --card2:rgba(255,255,255,.56); --accent:#2f6f9f; --accent2:#8fb7cc;
+    --shadow:0 24px 70px rgba(31,56,88,.12); --radius:28px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; min-height:100vh; color:var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background:
+    radial-gradient(circle at 18% 12%, rgba(188,213,226,.75), transparent 34%),
+    radial-gradient(circle at 86% 18%, rgba(218,230,238,.85), transparent 32%),
+    linear-gradient(135deg,var(--bg1),var(--bg2));
+  }
+  a{color:var(--accent); text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{width:min(1120px, calc(100% - 40px)); margin:0 auto; padding:34px 0 70px}
+  .nav{display:flex; justify-content:space-between; align-items:center; gap:18px; margin-bottom:26px}
+  .brand{font-size:14px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:700}
+  .navlinks{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+  .navlinks a,.btn{border:1px solid var(--line); background:rgba(255,255,255,.62); backdrop-filter:blur(14px); border-radius:999px; padding:10px 15px; color:var(--ink); font-size:14px; box-shadow:0 10px 30px rgba(25,49,77,.06)}
+  .hero{background:linear-gradient(140deg,var(--card),var(--card2)); border:1px solid rgba(255,255,255,.76); border-radius:var(--radius); box-shadow:var(--shadow); padding:40px; margin-bottom:22px}
+  .eyebrow{font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); font-weight:800; margin-bottom:12px}
+  h1{font-size:clamp(42px,7vw,76px); line-height:.95; margin:0 0 12px; letter-spacing:-.055em}
+  .subtitle{font-size:clamp(18px,2.2vw,25px); color:#344457; margin:0 0 14px; font-weight:650}
+  .summary{max-width:820px; font-size:18px; color:#3d4c5d; line-height:1.58; margin:0 0 22px}
+  .actions{display:flex; gap:12px; flex-wrap:wrap}.primary{background:#1f5f8b;color:white;border-color:#1f5f8b}.primary:hover{text-decoration:none;background:#164c72}.secondary:hover{text-decoration:none;background:white}
+  .grid{display:grid; grid-template-columns: 1fr 1fr; gap:22px; align-items:start}.full{grid-column:1/-1}
+  section{background:rgba(255,255,255,.74); border:1px solid rgba(255,255,255,.82); border-radius:24px; box-shadow:0 16px 46px rgba(31,56,88,.08); padding:28px}
+  h2{font-size:13px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); margin:0 0 18px}.role{padding:22px 0; border-top:1px solid var(--line)}.role:first-of-type{border-top:0;padding-top:0}.role h3{margin:0 0 5px;font-size:20px}.meta{color:var(--muted); font-size:14px; margin-bottom:10px}.role ul{margin:0; padding-left:20px}.role li{margin:8px 0; color:#334255; line-height:1.5}.chips{display:flex; flex-wrap:wrap; gap:9px}.chip{padding:9px 12px; border-radius:999px; background:rgba(47,111,159,.08); border:1px solid rgba(47,111,159,.14); color:#284761; font-size:14px}.compact p{margin:0 0 12px;color:#3c4a5b;line-height:1.5}.project-links{display:flex;flex-wrap:wrap;gap:10px}.project-links a{display:inline-block;padding:10px 13px;border:1px solid var(--line);background:white;border-radius:14px;color:var(--ink)}
+  footer{color:var(--muted); font-size:13px; margin-top:18px; text-align:center}
+  @media (max-width:760px){.nav{align-items:flex-start; flex-direction:column}.grid{grid-template-columns:1fr}.hero,section{padding:24px}.wrap{width:min(100% - 24px,1120px); padding-top:18px}.navlinks{justify-content:flex-start}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <div class="brand">Adaire Baltzer</div>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="acadience.html">Acadience</a>
+      <a href="mtss.html">MTSS</a>
+      <a href="paraeducator.html">Para Hub</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="eyebrow">Professional Background</div>
+    <h1>Résumé</h1>
+    <p class="subtitle">Workflow Designer • Systems Builder • Implementation-Minded Operator</p>
+    <p class="summary">I design systems that simplify complex work, improve adoption, and help people focus on judgment instead of process. My background spans operations, K-12 education, implementation support, documentation, workflow automation, and data-informed decision systems.</p>
+    <div class="actions">
+      <a class="btn primary" href="Adaire_Baltzer_Resume.pdf" download>Download PDF résumé</a>
+      <a class="btn secondary" href="mailto:adairebaltzer.work@gmail.com">Contact me</a>
+    </div>
+  </header>
+
+  <div class="grid">
+    <section class="full">
+      <h2>Experience</h2>
+      <div class="role">
+        <h3>Special Education Teacher &amp; Case Manager</h3>
+        <div class="meta">Iron County School District, Enoch Elementary · Dec 2019 - Jun 2026</div>
+        <ul>
+          <li>Designed and documented Google Sheets / Apps Script workflow tools that turned manual assessment reporting and parent communication processes into guided, repeatable systems.</li>
+          <li>Built an Acadience parent-letter generator that reduced a multi-day reporting process to approximately 12 minutes with guided setup, error handling, and non-technical user support.</li>
+          <li>Created implementation documentation, training materials, and self-service resources, including a Google Sites learning hub for staff adoption.</li>
+          <li>Mentored student teachers, provisionally licensed teachers, and paraprofessionals through structured coaching, practical tools, and professional learning.</li>
+          <li>Translated assessment, intervention, and compliance information into clear guidance for administrators, specialists, educators, and families.</li>
+        </ul>
+      </div>
+      <div class="role">
+        <h3>Behavior Intervention Specialist</h3>
+        <div class="meta">Fiddler's Canyon Elementary · Aug 2018 - May 2019</div>
+        <ul><li>Supported schoolwide PBIS implementation by developing procedures, documentation, implementation tools, and visual systems for classrooms and shared spaces.</li></ul>
+      </div>
+      <div class="role">
+        <h3>Computer Science Teacher / Paraprofessional</h3>
+        <div class="meta">Fiddler's Canyon Elementary · Aug 2017 - May 2018</div>
+        <ul><li>Delivered computer science and digital-citizenship instruction and supported schoolwide technology adoption through standards-aligned activities.</li></ul>
+      </div>
+      <div class="role">
+        <h3>Administrative Assistant / Bid Coordinator</h3>
+        <div class="meta">Integrity Supply / Desert Lumber-USLBM · Sep 2015 - Feb 2017</div>
+        <ul>
+          <li>Led DocuSign implementation to modernize contract workflows, improve turnaround time, and increase document visibility.</li>
+          <li>Built a bid-margin tracking spreadsheet that gave leadership clearer visibility into project profitability and margin targets.</li>
+        </ul>
+      </div>
+      <div class="role">
+        <h3>Earlier Operations &amp; Systems Experience</h3>
+        <div class="meta">Emergency Essentials and related contract support</div>
+        <ul>
+          <li>Redesigned a labor-intensive catalog mailing workflow from in-house label printing and application to a vendor-supported mailing process with higher capacity.</li>
+          <li>Implemented postal-process improvements including barcodes, NCOA service, mailing-software outputs, and optimized postal entry to reduce costs and improve address quality.</li>
+          <li>Partnered with a software vendor during a DOS-to-Windows CRM/order-entry transition, helping define address-update behavior from NCOA files and Mailers+4 outputs.</li>
+          <li>Continued as an independent contractor after departure to maintain customer address data remotely.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <div class="chips">
+        <span class="chip">Workflow Design</span><span class="chip">Process Improvement</span><span class="chip">Implementation Support</span><span class="chip">Systems Thinking</span><span class="chip">Technical Documentation</span><span class="chip">Training &amp; Enablement</span><span class="chip">Data Analysis</span><span class="chip">Change Management</span><span class="chip">Human-in-the-Loop Design</span><span class="chip">Cross-Functional Communication</span>
+      </div>
+    </section>
+    <section class="compact">
+      <h2>Technology</h2>
+      <p><strong>Platforms:</strong> Acadience ALO, Lexia, i-Ready, Canvas LMS, Seesaw, Google Classroom, Clever, Embrace IEP, PowerSchool</p>
+      <p><strong>Tools:</strong> Google Workspace, Google Apps Script, Microsoft Office, ScreenPal, Screencastify, Zoom, Webex, Google Meet, Adobe Creative Suite, Canva, Claude</p>
+    </section>
+    <section class="compact">
+      <h2>Education</h2>
+      <p><strong>M.S., Curriculum &amp; Instruction</strong><br>Western Governors University, 2025</p>
+      <p><strong>B.A., Special Education K-12, Dual Licensure Elementary Education</strong><br>Western Governors University, 2019</p>
+    </section>
+    <section class="compact">
+      <h2>Licenses &amp; Development</h2>
+      <p>Utah Professional Educator License · EdTech Endorsement · ESL Endorsement · LETRS · Modern Classrooms Project</p>
+    </section>
+    <section class="full compact">
+      <h2>Portfolio Projects</h2>
+      <div class="project-links">
+        <a href="acadience.html">Acadience Letter Generator</a>
+        <a href="mtss.html">MTSS Decision-Support System</a>
+        <a href="paraeducator.html">Paraeducator PD Hub</a>
+      </div>
+    </section>
+  </div>
+  <footer>© Adaire Baltzer</footer>
+</div>
+</body>
+</html>
